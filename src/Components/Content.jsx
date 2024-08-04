@@ -32,7 +32,7 @@ const CardContent = () => {
             <p className="card-category">ART</p>
           </div>
           <div className="card-post">
-            <img src="src\assets\image\art1.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
+            <img src="src/assets/image/art1.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
             <h3>Hope die last</h3>
             <p>Lorem ipsum dolor sit amet 1consectetur adipisicing elit. Sed aliquam voluptate dignissimos laudantium dolorem ducimus rem nihil ipsum magni fugiat?</p>
           </div>
@@ -50,7 +50,7 @@ const CardContent = () => {
             <p className="card-category">STREET ART</p>
           </div>
           <div className="card-post">
-            <img src="src\assets\image\street.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
+            <img src="src/assets/image/street.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
             <h3>Hope die last</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam voluptate dignissimos laudantium dolorem ducimus rem nihil ipsum magni fugiat?</p>
           </div>
@@ -68,7 +68,7 @@ const CardContent = () => {
             <p className="card-category">SCULPTURES</p>
           </div>
           <div className="card-post">
-            <img src="src\assets\image\sculptures.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
+            <img src="src/assets/image/sculptures.jpg" alt="" style={{ objectFit: "cover", marginTop: "10px", width: "100%", height: "auto", maxHeight: "300px" }} />
             <h3>Hope die last</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam voluptate dignissimos laudantium dolorem ducimus rem nihil ipsum magni fugiat?</p>
           </div>
