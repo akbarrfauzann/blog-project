@@ -1,0 +1,152 @@
+.header {
+  background: #fff;
+  padding: 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-header .logo {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #333;
+  margin-bottom: 15px;
+}
+
+.categories-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  align-items: center;
+}
+
+.categories-content .category {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.choose-category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-1,
+.category-2,
+.category-3,
+.category-4 {
+  margin-right: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 3px 10px;
+}
+
+.category-4 {
+  margin-right: 0;
+}
+
+.card-content {
+  margin-bottom: 50px;
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.card-date .card-category {
+  border: 1px solid black;
+  padding: 1px 10px;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+.card-post {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card-author {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+.card-content .ant-card-grid {
+  text-align: center;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .categories-content .category {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .category-1,
+  .category-2,
+  .category-3,
+  .category-4 {
+    border-radius: 10px;
+    font-size: 5px;
+  }
+
+  .card-content .ant-card-grid {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .choose-category {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container-header .logo {
+    font-size: 10px;
+  }
+
+  .container-header .icon {
+    font-size: 8px;
+  }
+
+  .categories-content .category {
+    font-size: 10px;
+  }
+
+  .choose-category {
+    display: block;
+    text-align: center;
+  }
+
+  .card-date {
+    font-size: 8px;
+  }
+
+  .card-date .card-category {
+    font-size: 5px;
+  }
+
+  .category-1,
+  .category-2,
+  .category-3,
+  .category-4 {
+    margin: 5px auto;
+  }
+}
